@@ -79,6 +79,12 @@ Esta solução permite o gerenciamento de produtos por meio de uma API e interfa
 
    A aplicação abrirá uma interface onde você poderá **adicionar, remover e alterar produtos**.
 
+   Para acessar a documentação da API via **Swagger**, basta pegar a porta em que a aplicação está rodando e adicionar `/swagger/index.html`, por exemplo:
+
+   ```
+   http://localhost:5000/swagger/index.html
+   ```
+
 ---
 
 ## ✅ Executando os Testes Unitários
