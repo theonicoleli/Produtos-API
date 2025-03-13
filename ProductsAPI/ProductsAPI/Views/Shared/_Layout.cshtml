@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - Meu Projeto</title>
+</head>
+<body>
+    <header style="background-color: #eee; padding: 10px;">
+        <h1>Produtos</h1>
+    </header>
+
+    <div style="margin: 20px;">
+        @RenderBody()
+    </div>
+
+    <footer style="background-color: #eee; padding: 10px; margin-top: 20px; text-align: center;">
+        © @DateTime.Now.Year - Meu Projeto
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 40px;
+  }
+
+  header {
+    background-color: #0D214F !important;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  footer {
+    background-color: #0D214F !important;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+  }
+
+</style>

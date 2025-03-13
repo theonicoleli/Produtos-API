@@ -1,0 +1,563 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\views\\produtosmvc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\views\\produtosmvc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\views\\produtosmvc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\views\\produtosmvc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\views\\produtosmvc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\views\\produtosmvc\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\views\\produtosmvc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\views\\produtosmvc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D97E72-84DE-4EC6-A916-CDE2B8D821FD}|Presentation\\Presentation.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\presentation\\controller\\produtosmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D97E72-84DE-4EC6-A916-CDE2B8D821FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controller\\produtosmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1CD332-3230-407D-BB8C-D51C0A6C90A8}|Tests\\Tests.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\tests\\produtosmvccontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1CD332-3230-407D-BB8C-D51C0A6C90A8}|Tests\\Tests.csproj|solutionrelative:tests\\produtosmvccontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\productsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\productsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\productsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4FC80E40-171D-4C6A-AF03-3B17EC506C58}|ProductsAPI\\ProductsAPI.csproj|solutionrelative:productsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1CD332-3230-407D-BB8C-D51C0A6C90A8}|Tests\\Tests.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E1CD332-3230-407D-BB8C-D51C0A6C90A8}|Tests\\Tests.csproj|solutionrelative:tests\\tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1CD332-3230-407D-BB8C-D51C0A6C90A8}|Tests\\Tests.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\tests\\produtovalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E1CD332-3230-407D-BB8C-D51C0A6C90A8}|Tests\\Tests.csproj|solutionrelative:tests\\produtovalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D97E72-84DE-4EC6-A916-CDE2B8D821FD}|Presentation\\Presentation.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\presentation\\presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37D97E72-84DE-4EC6-A916-CDE2B8D821FD}|Presentation\\Presentation.csproj|solutionrelative:presentation\\presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5745BA0-05C9-4C71-A717-A26A2828F74F}|Infrastructure\\Infrastructure.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5745BA0-05C9-4C71-A717-A26A2828F74F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EDEA5F-E80C-4C10-8106-E38704E6E5AD}|Application\\Application.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\application\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8EDEA5F-E80C-4C10-8106-E38704E6E5AD}|Application\\Application.csproj|solutionrelative:application\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\domain\\dtos\\produtoupdatepricedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\produtoupdatepricedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\domain\\dtos\\produtoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\produtoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\domain\\dtos\\produtocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\produtocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5745BA0-05C9-4C71-A717-A26A2828F74F}|Infrastructure\\Infrastructure.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\infrastructure\\migrations\\202503120001_createprodutostable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5745BA0-05C9-4C71-A717-A26A2828F74F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\202503120001_createprodutostable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5745BA0-05C9-4C71-A717-A26A2828F74F}|Infrastructure\\Infrastructure.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5745BA0-05C9-4C71-A717-A26A2828F74F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5745BA0-05C9-4C71-A717-A26A2828F74F}|Infrastructure\\Infrastructure.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\infrastructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5745BA0-05C9-4C71-A717-A26A2828F74F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\domain\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\domain\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E42D420-B87D-4D72-AE0C-DFCC6E85FFB3}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EDEA5F-E80C-4C10-8106-E38704E6E5AD}|Application\\Application.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\application\\validators\\produtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8EDEA5F-E80C-4C10-8106-E38704E6E5AD}|Application\\Application.csproj|solutionrelative:application\\validators\\produtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EDEA5F-E80C-4C10-8106-E38704E6E5AD}|Application\\Application.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8EDEA5F-E80C-4C10-8106-E38704E6E5AD}|Application\\Application.csproj|solutionrelative:application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EDEA5F-E80C-4C10-8106-E38704E6E5AD}|Application\\Application.csproj|c:\\users\\theo nicoleli\\source\\repos\\productsapi\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D8EDEA5F-E80C-4C10-8106-E38704E6E5AD}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\ProdutosMvc\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProductsAPI\\Views\\ProdutosMvc\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\ProdutosMvc\\Delete.cshtml",
+              "RelativeToolTip": "ProductsAPI\\Views\\ProdutosMvc\\Delete.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwCcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T01:46:47.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\ProdutosMvc\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProductsAPI\\Views\\ProdutosMvc\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\ProdutosMvc\\Edit.cshtml",
+              "RelativeToolTip": "ProductsAPI\\Views\\ProdutosMvc\\Edit.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAUwGIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T01:46:34.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\ProdutosMvc\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProductsAPI\\Views\\ProdutosMvc\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\ProdutosMvc\\Create.cshtml",
+              "RelativeToolTip": "ProductsAPI\\Views\\ProdutosMvc\\Create.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T01:46:17.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "202503120001_CreateProdutosTable.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Infrastructure\\Migrations\\202503120001_CreateProdutosTable.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\202503120001_CreateProdutosTable.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Infrastructure\\Migrations\\202503120001_CreateProdutosTable.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\202503120001_CreateProdutosTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:33:23.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Domain",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-12T23:27:39.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsAPI",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\ProductsAPI.csproj",
+              "RelativeDocumentMoniker": "ProductsAPI\\ProductsAPI.csproj",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\ProductsAPI.csproj",
+              "RelativeToolTip": "ProductsAPI\\ProductsAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-12T23:16:11.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProductsAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Program.cs",
+              "RelativeToolTip": "ProductsAPI\\Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwD4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:15:38.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Application\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Application\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Application\\Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:14:51.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProdutoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Application\\Validators\\ProdutoValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Validators\\ProdutoValidator.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Application\\Validators\\ProdutoValidator.cs",
+              "RelativeToolTip": "Application\\Validators\\ProdutoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:13:56.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Application\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Application\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "Application\\Services\\ProdutoService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:12:23.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Application",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-12T23:11:57.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProdutosMvcController.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Presentation\\Controller\\ProdutosMvcController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controller\\ProdutosMvcController.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Presentation\\Controller\\ProdutosMvcController.cs",
+              "RelativeToolTip": "Presentation\\Controller\\ProdutosMvcController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:40:18.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProductsAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProductsAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T00:49:36.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProdutosMvcControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Tests\\ProdutosMvcControllerTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ProdutosMvcControllerTests.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Tests\\ProdutosMvcControllerTests.cs",
+              "RelativeToolTip": "Tests\\ProdutosMvcControllerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:18:09.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "ProductsAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Dockerfile",
+              "RelativeToolTip": "ProductsAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-12T23:35:50.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\ProdutosMvc\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductsAPI\\Views\\ProdutosMvc\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\ProdutosMvc\\Index.cshtml",
+              "RelativeToolTip": "ProductsAPI\\Views\\ProdutosMvc\\Index.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAUwCsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T02:04:53.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProductsAPI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProductsAPI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwEUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T02:20:36.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductsAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\appsettings.json",
+              "RelativeToolTip": "ProductsAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T23:34:41.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ProductsAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\ProductsAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ProductsAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T02:28:25.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProdutoValidatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Tests\\ProdutoValidatorTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ProdutoValidatorTests.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Tests\\ProdutoValidatorTests.cs",
+              "RelativeToolTip": "Tests\\ProdutoValidatorTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:09:56.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAIAUAAAAAAAAAAApwJUUAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-13T01:13:29.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Tests",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Tests\\Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Tests\\Tests.csproj",
+              "RelativeToolTip": "Tests\\Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-13T00:10:56.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\Interfaces\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IProdutoService.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\Interfaces\\IProdutoService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IProdutoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:01:52.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Presentation",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Presentation\\Presentation.csproj",
+              "RelativeDocumentMoniker": "Presentation\\Presentation.csproj",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Presentation\\Presentation.csproj",
+              "RelativeToolTip": "Presentation\\Presentation.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-12T23:40:54.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProdutoCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\DTOs\\ProdutoCreateDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\ProdutoCreateDTO.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\DTOs\\ProdutoCreateDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\ProdutoCreateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:01:18.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:59:00.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProdutoUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\DTOs\\ProdutoUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\ProdutoUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\DTOs\\ProdutoUpdateDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\ProdutoUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:02:02.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProdutoUpdatePriceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\DTOs\\ProdutoUpdatePriceDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\ProdutoUpdatePriceDTO.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\DTOs\\ProdutoUpdatePriceDTO.cs",
+              "RelativeToolTip": "Domain\\DTOs\\ProdutoUpdatePriceDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T00:06:09.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Infrastructure",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-12T22:47:46.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA6wBQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:57:46.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\Interfaces\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\Interfaces\\IProdutoRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IProdutoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:56:37.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain\\Entities\\Produto.cs",
+              "RelativeToolTip": "Domain\\Entities\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T22:54:04.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

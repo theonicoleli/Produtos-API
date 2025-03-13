@@ -1,0 +1,144 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<Domain.Entities.Produto>
+
+@{
+    ViewData["Title"] = "Lista de Produtos";
+}
+
+<div class="page-container">
+    <h2 class="page-title">Lista de Produtos</h2>
+
+    <p>
+        <a class="btn-new" href="@Url.Action("Create", "ProdutosMvc")">Criar Novo Produto</a>
+    </p>
+
+    <table class="table-custom">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var produto in Model)
+            {
+                <tr>
+                    <td>@produto.Id</td>
+                    <td>@produto.Nome</td>
+                    <td>@produto.Preco.ToString("C")</td>
+                    <td>
+                        <a class="btn-edit" href="@Url.Action("Edit", "ProdutosMvc", new { id = produto.Id })">Editar</a>
+                        <a class="btn-delete" href="@Url.Action("Delete", "ProdutosMvc", new { id = produto.Id })">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .page-container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .page-title {
+        font-size: 2rem;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .btn-new {
+        display: inline-block;
+        background: linear-gradient(135deg, #007bff, #0056b3);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background 0.3s ease;
+        margin-bottom: 20px;
+    }
+
+    .btn-new:hover {
+        background: linear-gradient(135deg, #0056b3, #004085);
+    }
+
+    .table-custom {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    .table-custom thead {
+        background: #f2f2f2;
+    }
+
+    .table-custom th,
+    .table-custom td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .table-custom th {
+        font-weight: 600;
+        color: #555;
+    }
+
+    .table-custom tr:nth-child(even) {
+        background: #f9f9f9;
+    }
+
+    .btn-edit, .btn-delete {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        text-decoration: none;
+        transition: background 0.3s ease;
+        margin-right: 5px;
+    }
+
+    .btn-edit {
+        background: linear-gradient(135deg, #17a2b8, #138496);
+        color: #fff;
+    }
+
+    .btn-edit:hover {
+        background: linear-gradient(135deg, #138496, #117a8b);
+    }
+
+    .btn-delete {
+        background: linear-gradient(135deg, #dc3545, #c82333);
+        color: #fff;
+    }
+
+    .btn-delete:hover {
+        background: linear-gradient(135deg, #c82333, #bd2130);
+    }
+</style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

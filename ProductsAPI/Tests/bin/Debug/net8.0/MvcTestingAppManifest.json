@@ -1,0 +1,6 @@
+{
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Infrastructure",
+  "Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Theo Nicoleli\\source\\repos\\ProductsAPI\\Presentation"
+}

@@ -1,0 +1,15 @@
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Theo Nicoleli\source\repos\ProductsAPI\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

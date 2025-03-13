@@ -1,0 +1,132 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Domain.Entities.Produto
+
+@{
+    ViewData["Title"] = "Excluir Produto";
+}
+
+<div class="page-container">
+    <h2 class="page-title" style="color: red;">Excluir Produto</h2>
+
+    <p class="alert-message">Tem certeza que deseja excluir este produto?</p>
+
+    <dl class="item-details">
+        <dt>Nome</dt>
+        <dd>@Model.Nome</dd>
+        <dt>Preço</dt>
+        <dd>@Model.Preco.ToString("C")</dd>
+        <dt>Descrição</dt>
+        <dd>@Model.Descricao</dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" method="post" class="form-custom">
+        <input type="hidden" asp-for="Id" />
+        <div class="form-actions">
+            <button type="submit" class="btn-delete">Excluir</button>
+            <a href="@Url.Action("Index", "ProdutosMvc")" class="btn-cancel">Cancelar</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .page-container {
+        max-width: 600px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .page-title {
+        font-size: 2rem;
+        text-align: center;
+        color: #e74c3c;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .alert-message {
+        background-color: #fff3cd;
+        color: #856404;
+        padding: 12px 15px;
+        border: 1px solid #ffeeba;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .item-details {
+        margin-bottom: 20px;
+    }
+
+    .item-details dt {
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    .item-details dd {
+        font-size: 1rem;
+        margin: 0 0 15px 0;
+        padding-left: 10px;
+        border-left: 3px solid #ddd;
+        color: #333;
+    }
+
+    .form-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .btn-delete, .btn-cancel {
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        transition: transform 0.2s ease, background 0.3s ease;
+        cursor: pointer;
+        border: none;
+    }
+
+    .btn-delete {
+        background: linear-gradient(135deg, #e74c3c, #c0392b);
+        color: #fff;
+    }
+
+    .btn-delete:hover {
+        transform: scale(1.05);
+        background: linear-gradient(135deg, #c0392b, #a93226);
+    }
+
+    .btn-cancel {
+        background: linear-gradient(135deg, #7f8c8d, #95a5a6);
+        color: #fff;
+    }
+
+    .btn-cancel:hover {
+        transform: scale(1.05);
+        background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+    }
+</style>

@@ -1,0 +1,156 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Domain.Entities.Produto
+
+@{
+    ViewData["Title"] = "Criar Produto";
+}
+
+<div class="page-container">
+    <h2 class="page-title">Criar Produto</h2>
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <form action="@Url.Action("Create", "ProdutosMvc")" method="post" class="form-custom">
+        <div class="form-row">
+            <label class="form-label" for="Nome">Nome</label>
+            <input class="form-input" type="text" id="Nome" name="Nome" value="@Model.Nome" />
+            <span class="form-error" data-valmsg-for="Nome" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-row">
+            <label class="form-label" for="Descricao">Descrição</label>
+            <textarea class="form-textarea" id="Descricao" name="Descricao">@Model.Descricao</textarea>
+            <span class="form-error" data-valmsg-for="Descricao" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-row">
+            <label class="form-label" for="Preco">Preço</label>
+            <input class="form-input" type="number" id="Preco" name="Preco" step="0.01" value="@Model.Preco.ToString("F0", System.Globalization.CultureInfo.InvariantCulture)" />
+            <span class="form-error" data-valmsg-for="Preco" data-valmsg-replace="true"></span>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn-save">Salvar</button>
+            <a href="@Url.Action("Index", "ProdutosMvc")" class="btn-cancel">Cancelar</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f4f7f6;
+    }
+
+    .page-container {
+        max-width: 600px;
+        margin: 40px auto;
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .page-title {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .form-custom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-label {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-family: inherit;
+        font-size: 1rem;
+        padding: 10px 15px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .form-input:focus,
+    .form-textarea:focus {
+        border-color: #4CAF50;
+        box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+        outline: none;
+    }
+
+    .form-textarea {
+        min-height: 100px;
+        resize: vertical;
+    }
+
+    .form-error {
+        color: #e74c3c;
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+
+    .form-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .btn-save,
+    .btn-cancel {
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: background 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .btn-save {
+        background: linear-gradient(135deg, #4CAF50, #2ecc71);
+        color: #fff;
+        border: none;
+    }
+
+    .btn-save:hover {
+        transform: scale(1.03);
+        background: linear-gradient(135deg, #45a049, #27ae60);
+    }
+
+    .btn-cancel {
+        background: #ccc;
+        color: #333;
+        border: none;
+    }
+
+    .btn-cancel:hover {
+        transform: scale(1.03);
+        background: #b3b3b3;
+    }
+</style>

@@ -1,0 +1,153 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Domain.Entities.Produto
+
+@{
+    ViewData["Title"] = "Editar Produto";
+}
+
+<div class="page-container">
+    <h2 class="page-title">Editar Produto</h2>
+
+    <form action="@Url.Action("Edit", "ProdutosMvc", new { id = Model.Id })" method="post" class="form-custom">
+        <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+
+        <div class="form-row">
+            <label class="form-label" for="Nome">Nome</label>
+            <input type="text" name="Nome" id="Nome" class="form-input" value="@Model.Nome" />
+            <span class="form-error" data-valmsg-for="Nome" data-valmsg-replace="true"></span>
+        </div>
+
+        <div class="form-row">
+            <label class="form-label" for="Descricao">Descrição</label>
+            <textarea name="Descricao" id="Descricao" class="form-textarea">@Model.Descricao</textarea>
+            <span class="form-error" data-valmsg-for="Descricao" data-valmsg-replace="true"></span>
+        </div>
+
+        <div class="form-row">
+            <label class="form-label" for="Preco">Preço</label>
+            <input type="number" name="Preco" id="Preco" class="form-input" step="1" value="@Model.Preco.ToString("F0", System.Globalization.CultureInfo.InvariantCulture)" />
+            <span class="form-error" data-valmsg-for="Preco" data-valmsg-replace="true"></span>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn-save">Salvar</button>
+            <a href="@Url.Action("Index", "ProdutosMvc")" class="btn-cancel">Cancelar</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f4f7f6;
+    }
+
+    .page-container {
+        max-width: 600px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .page-title {
+        font-size: 2rem;
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .form-custom {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-label {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #555;
+        margin-bottom: 8px;
+    }
+
+    .form-input,
+    .form-textarea {
+        font-size: 1rem;
+        padding: 10px 15px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .form-input:focus,
+    .form-textarea:focus {
+        border-color: #4CAF50;
+        box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+        outline: none;
+    }
+
+    .form-error {
+        color: #e74c3c;
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+
+    .form-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .btn-save,
+    .btn-cancel {
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+        transition: background 0.3s ease, transform 0.2s ease;
+        cursor: pointer;
+        border: none;
+    }
+
+    .btn-save {
+        background: linear-gradient(135deg, #4CAF50, #2ecc71);
+        color: #fff;
+    }
+
+    .btn-save:hover {
+        transform: scale(1.05);
+        background: linear-gradient(135deg, #45a049, #27ae60);
+    }
+
+    .btn-cancel {
+        background: linear-gradient(135deg, #7f8c8d, #95a5a6);
+        color: #fff;
+    }
+
+    .btn-cancel:hover {
+        transform: scale(1.05);
+        background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+    }
+</style>
